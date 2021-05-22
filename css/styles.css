@@ -1,0 +1,85 @@
+/*************TAG**************/
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 85px 10px 45px 100px;
+    width: 80%;
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h3 {
+    font-size: 2.2rem;
+    color: white;
+    display: inline-block;
+    margin: 80px 70px 10px 70px;
+}
+p {
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+img {
+    width: 95%;
+}
+/*************Class**************/
+
+.midDiv {
+    margin: 100px auto;
+    width: 1440px;
+    background-color: hsl(244, 38%, 16%);  
+    position: relative;
+    border-radius: 10px;
+}
+.midDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.pessoas1 {
+    text-align: right;
+    border-radius: 0 10px 10px 0;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+  
+}
+.frase {
+    color: white;
+  
+}
+.companias {
+    color: white;
+    
+}
+.coluna1 {
+    float: left;
+    width: 50%;
+}
+.coluna2 {
+    float: left;
+    width: 50%;
+    text-align: right;
+    height: 565px;  
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 10px 10px 0;
+}
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+.separados {
+    display: inline;
+    font-size: 1.2rem;
+    margin: 10px 50px 10px 50px;
+}
